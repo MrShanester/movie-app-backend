@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# 100.times do 
+#   Movie.create(title: FFaker::Movie.title, year: rand(1900...2020), plot: FFaker::Lorem.paragraph)
+# end
